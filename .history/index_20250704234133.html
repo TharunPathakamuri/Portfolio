@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tharun Pathakamuri - Portfolio</title>
+    <meta
+      name="description"
+      content="Personal Portfolio - Modern Web Developer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lucide-static@0.292.0/font/lucide.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <h3>Portfolio</h3>
+          </div>
+
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button
+              class="theme-toggle"
+              id="theme-toggle"
+              aria-label="Toggle dark mode"
+            >
+              <i class="lucide lucide-moon"></i>
+            </button>
+
+            <button
+              class="mobile-menu-toggle"
+              id="mobile-menu-toggle"
+              aria-label="Toggle mobile menu"
+            >
+              <i class="lucide lucide-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-greeting">
+              <span class="wave">👋</span> Hello, I'm
+            </div>
+
+            <h1 class="hero-title">
+              <span class="name">Tharun Sai Charan Pathakamuri</span>
+              <span class="title">Junior Web Developer</span>
+            </h1>
+
+            <p class="hero-description">
+              I create beautiful, functional, and user-centered digital
+              experiences. Passionate about clean code, modern design, and
+              innovative solutions.
+            </p>
+
+            <div class="hero-actions">
+              <button
+                class="btn btn-primary"
+                onclick="scrollToSection('contact')"
+              >
+                <i class="lucide lucide-mail"></i>
+                Get In Touch
+              </button>
+
+              <a
+                href="THARUN_PATHAKAMUR_RESUME.pdf"
+                class="btn btn-secondary"
+                download
+              >
+                <i class="lucide lucide-download"></i>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero-social">
+              <a
+                href="https://github.com/TharunPathakamuri"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <i class="lucide lucide-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tharun-pathakamuri/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <i class="lucide lucide-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image">
+              <div class="image-placeholder">
+                <div class="placeholder-text">JD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-description">
+              <p>
+                🎓 I’m a B.Tech graduate in Electronics and Communication
+                Engineering with a strong interest in web development and Python
+                programming.  
+              </p>
+
+              <p>
+                💡 Skilled in HTML, CSS, SQL, and Git, I build
+                responsive and user-friendly websites with clean code and
+                creative UI.
+              </p>
+
+              <p>
+               🚀 Currently exploring JavaScript and UI/UX, and
+                actively seeking opportunities to contribute to real-world
+                projects and grow as a developer.
+              </p>
+            </div>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="lucide lucide-briefcase"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Fresher</h4>
+                  <p class="highlight-description">Professional Experience</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="lucide lucide-graduation-cap"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Electronics and Communication
+                Engineering</h4>
+                  <p class="highlight-description">Bachelor's Degree</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="lucide lucide-map-pin"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Remote</h4>
+                  <p class="highlight-description">Available Worldwide</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="lucide lucide-calendar"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Available</h4>
+                  <p class="highlight-description">For New Projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="card-header">
+                <h3>Personal Info</h3>
+              </div>
+
+              <div class="info-list">
+                <div class="info-item">
+                  <span class="info-label">Name:</span>
+                  <span class="info-value">Tharun Sai Charan Pathakamuri</span>
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Email:</span>
+                  <span class="info-value">tharunsaicharanpathakamuri@gmail.com</span>
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Location:</span>
+                  <span class="info-value">Hyderabad, India</span>
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Languages:</span>
+                  <span class="info-value">English, Telugu, Hindi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Technologies & Tools</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-code"></i>
+            </div>
+            <div class="skill-name">HTML5</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-palette"></i>
+            </div>
+            <div class="skill-name">CSS3</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-file-code"></i>
+            </div>
+            <div class="skill-name">JavaScript</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-zap"></i>
+            </div>
+            <div class="skill-name">React</div>
+          </div>
+        
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-database"></i>
+            </div>
+            <div class="skill-name">SQL</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-git-branch"></i>
+            </div>
+            <div class="skill-name">Git</div>
+          </div>
+          </div>
+          </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Selected Work</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Modern Portfolio - Professional workspace with laptop" style="object-fit:cover;width:100%;height:220px;border-radius:12px;" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Modern Portfolio</h3>
+              <p class="project-description">
+                A sleek, responsive portfolio website built with React and
+                modern CSS.
+              </p>
+              <div class="project-tech">
+                <span class="tech-icon"><i class="lucide lucide-zap"></i></span>
+                <span class="tech-icon"
+                  ><i class="lucide lucide-image"></i
+                ></span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-github"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Task Manager App - Organized desk with productivity tools" style="object-fit:cover;width:100%;height:220px;border-radius:12px;" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Task Manager App</h3>
+              <p class="project-description">
+                A productivity app for managing daily tasks, with real-time
+                sync.
+              </p>
+              <div class="project-tech">
+                <span class="tech-icon"><i class="lucide lucide-zap"></i></span>
+                <span class="tech-icon"
+                  ><i class="lucide lucide-server"></i
+                ></span>
+                <span class="tech-icon"
+                  ><i class="lucide lucide-database"></i
+                ></span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-github"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Design System - UI design sketches and color swatches" style="object-fit:cover;width:100%;height:220px;border-radius:12px;" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Design System</h3>
+              <p class="project-description">
+                Reusable UI components and design tokens for rapid prototyping.
+              </p>
+              <div class="project-tech">
+                <span class="tech-icon"
+                  ><i class="lucide lucide-image"></i
+                ></span>
+                <span class="tech-icon"><i class="lucide lucide-zap"></i></span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-github"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="softskills" class="softskills section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Soft Skills</h2>
+          <p class="section-subtitle">Personal & Professional Qualities</p>
+        </div>
+        <div class="softskills-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+          <div class="softskill-card" style="flex: 1 1 220px; max-width: 260px; min-width: 200px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 2rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="softskill-icon" style="font-size:2.2rem; color:#6c63ff; margin-bottom:0.7rem;"><i class="lucide lucide-lightbulb"></i></div>
+            <div class="softskill-name" style="font-weight:600; font-size:1.1rem; margin-bottom:0.4rem;">Problem Solving</div>
+            <div class="softskill-desc" style="font-size:0.98rem; color:#555;">Approaches challenges with creativity and analytical thinking.</div>
+          </div>
+          <div class="softskill-card" style="flex: 1 1 220px; max-width: 260px; min-width: 200px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 2rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="softskill-icon" style="font-size:2.2rem; color:#6c63ff; margin-bottom:0.7rem;"><i class="lucide lucide-users"></i></div>
+            <div class="softskill-name" style="font-weight:600; font-size:1.1rem; margin-bottom:0.4rem;">Collaboration</div>
+            <div class="softskill-desc" style="font-size:0.98rem; color:#555;">Works effectively with others to achieve shared goals.</div>
+          </div>
+          <div class="softskill-card" style="flex: 1 1 220px; max-width: 260px; min-width: 200px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 2rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="softskill-icon" style="font-size:2.2rem; color:#6c63ff; margin-bottom:0.7rem;"><i class="lucide lucide-message-circle"></i></div>
+            <div class="softskill-name" style="font-weight:600; font-size:1.1rem; margin-bottom:0.4rem;">Communication</div>
+            <div class="softskill-desc" style="font-size:0.98rem; color:#555;">Clear and concise in both written and verbal communication.</div>
+          </div>
+          <div class="softskill-card" style="flex: 1 1 220px; max-width: 260px; min-width: 200px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 2rem 1.2rem; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="softskill-icon" style="font-size:2.2rem; color:#6c63ff; margin-bottom:0.7rem;"><i class="lucide lucide-smile"></i></div>
+            <div class="softskill-name" style="font-weight:600; font-size:1.1rem; margin-bottom:0.4rem;">Adaptability</div>
+            <div class="softskill-desc" style="font-size:0.98rem; color:#555;">Quickly adapts to new environments and technologies.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Let's connect</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="lucide lucide-mail"></i>
+              <span>john@example.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="lucide lucide-map-pin"></i>
+              <span>San Hyderabad, Ind</span>
+            </div>
+            <div class="contact-item" style="display: flex; align-items: center; gap: 0.5rem;">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                style="display: flex; align-items: center; gap: 0.3rem;"
+                aria-label="GitHub"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6c63ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 21.13V25"/></svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+            <div class="contact-item" style="display: flex; align-items: center; gap: 0.5rem;">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                style="display: flex; align-items: center; gap: 0.3rem;"
+                aria-label="LinkedIn"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6c63ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><rect x="8" y="9" width="8" height="12"/><path d="M16 9v-2a4 4 0 0 1 8 0v2"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" required />
+              <span class="form-error" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" required />
+              <span class="form-error" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="form-success" id="form-success"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <span
+            >&copy; <span id="current-year"></span> John Doe. All rights
+            reserved.</span
+          >
+          <button
+            class="footer-top"
+            onclick="scrollToTop()"
+            aria-label="Back to top"
+          >
+            <i class="lucide lucide-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

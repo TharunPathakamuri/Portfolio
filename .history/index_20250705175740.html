@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tharun Pathakamuri - Portfolio</title>
+    <meta
+      name="description"
+      content="Personal Portfolio - Modern Web Developer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lucide-static@0.292.0/font/lucide.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <h3>Portfolio</h3>
+          </div>
+
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button
+              class="theme-toggle"
+              id="theme-toggle"
+              aria-label="Toggle dark mode"
+            >
+              <i class="lucide lucide-moon"></i>
+            </button>
+
+            <button
+              class="mobile-menu-toggle"
+              id="mobile-menu-toggle"
+              aria-label="Toggle mobile menu"
+            >
+              <i class="lucide lucide-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-greeting">
+              <span class="wave">👋</span> Hello, I'm
+            </div>
+
+            <h1 class="hero-title">
+              <span class="name">Tharun Sai Charan Pathakamuri</span>
+              <span class="title">Junior Web Developer</span>
+            </h1>
+
+            <p class="hero-description">
+              I create beautiful, functional, and user-centered digital
+              experiences. Passionate about clean code, modern design, and
+              innovative solutions.
+            </p>
+
+            <div class="hero-actions">
+              <button
+                class="btn btn-primary"
+                onclick="scrollToSection('contact')"
+              >
+                <i class="lucide lucide-mail"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="#6c63ff"
+                  stroke-width="2"
+                >
+                  <rect width="20" height="14" x="2" y="5" rx="3" />
+                  <path d="M22 7.5 12 13 2 7.5" />
+                </svg>
+                Get In Touch
+              </button>
+
+              <a
+                href="THARUN_PATHAKAMUR_RESUME.pdf"
+                class="btn btn-secondary"
+                download
+              >
+                <i class="lucide lucide-download"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="#6c63ff"
+                  stroke-width="2"
+                >
+                  <path d="M12 5v14m0 0-5-5m5 5 5-5" />
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero-social">
+              <a
+                href="https://github.com/TharunPathakamuri"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="GitHub"
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 48px;
+                  height: 48px;
+                  background: #fff;
+                  border-radius: 50%;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  margin-right: 0.7rem;
+                  transition: box-shadow 0.2s;
+                "
+                onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.18)'"
+                onmouseout="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.10)'"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.58 2 12.26c0 4.48 2.87 8.28 6.84 9.63.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0 1 12 7.07c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"
+                    fill="#181717"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tharun-pathakamuri/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LinkedIn"
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 48px;
+                  height: 48px;
+                  background: #fff;
+                  border-radius: 50%;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  transition: box-shadow 0.2s;
+                "
+                onmouseover="this.style.boxShadow='0 4px 16px rgba(10,102,194,0.18)'"
+                onmouseout="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.10)'"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <rect width="24" height="24" rx="12" fill="#0A66C2" />
+                  <path
+                    d="M7.12 9.5c.88 0 1.43-.59 1.43-1.33 0-.76-.56-1.33-1.42-1.33-.87 0-1.43.57-1.43 1.33 0 .74.55 1.33 1.41 1.33h.01Zm-1.18 1.32h2.36V18H5.94V10.82Zm4.09 0h2.26v.99h.03c.31-.59 1.07-1.21 2.2-1.21 2.36 0 2.8 1.55 2.8 3.56V18h-2.36v-3.14c0-.75-.01-1.71-1.04-1.71-1.04 0-1.2.81-1.2 1.65V18h-2.36v-7.18Z"
+                    fill="#fff"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div
+              class="hero-image"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <img
+                src="Tharun_Pathakamuri.jpg"
+                alt="Tharun Pathakamuri"
+                style="
+                  width: 170px;
+                  height: 170px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                  border: 4px solid #fff;
+                  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+                  background: #f3f3f3;
+                  display: block;
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-description">
+              <p>
+                🎓 I’m a B.Tech graduate in Electronics and Communication
+                Engineering with a strong interest in web development and Python
+                programming.
+              </p>
+
+              <p>
+                💡 Skilled in HTML, CSS, SQL, and Git, I build responsive and
+                user-friendly websites with clean code and creative UI.
+              </p>
+
+              <p>
+                🚀 Currently exploring JavaScript and UI/UX, and actively
+                seeking opportunities to contribute to real-world projects and
+                grow as a developer.
+              </p>
+            </div>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#6c63ff"
+                    stroke-width="2"
+                  >
+                    <rect x="2" y="7" width="20" height="14" rx="2" />
+                    <path d="M16 3v4M8 3v4" />
+                  </svg>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Fresher</h4>
+                  <p class="highlight-description">Professional Experience</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#6c63ff"
+                    stroke-width="2"
+                  >
+                    <path d="M22 12l-10-7-10 7 10 7 10-7z" />
+                    <path d="M2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6" />
+                  </svg>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">
+                    Electronics and Communication Engineering
+                  </h4>
+                  <p class="highlight-description">Bachelor's Degree</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#6c63ff"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M12 21c-4.97-4.97-8-8.03-8-11A8 8 0 0 1 20 10c0 2.97-3.03 6.03-8 11z"
+                    />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Hybrid</h4>
+                  <p class="highlight-description">Available Worldwide</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#6c63ff"
+                    stroke-width="2"
+                  >
+                    <rect x="3" y="4" width="18" height="18" rx="2" />
+                    <path d="M16 2v4M8 2v4" />
+                  </svg>
+                </div>
+                <div class="highlight-content">
+                  <h4 class="highlight-title">Available</h4>
+                  <p class="highlight-description">For New Projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="card-header">
+                <h3>Personal Info</h3>
+              </div>
+
+              <div class="info-list">
+                <div class="info-item">
+                  <span class="info-label">Name:</span>
+                  <span class="info-value">Tharun Sai Charan Pathakamuri</span>
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Email:</span>
+                  <span class="info-value"
+                    >tharunsaicharanpathakamuri@gmail.com</span
+                  >
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Location:</span>
+                  <span class="info-value">Hyderabad, India</span>
+                </div>
+
+                <div class="info-item">
+                  <span class="info-label">Languages:</span>
+                  <span class="info-value">English, Telugu, Hindi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Technologies & Tools</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-code"></i>
+            </div>
+            <div class="skill-name">HTML5</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-palette"></i>
+            </div>
+            <div class="skill-name">CSS3</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-file-code"></i>
+            </div>
+            <div class="skill-name">JavaScript</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-zap"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#fbbf24"
+                stroke-width="2"
+              >
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <path d="M21 15l-5-5L5 21" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <rect x="2" y="2" width="20" height="8" rx="2" />
+                <rect x="2" y="14" width="20" height="8" rx="2" />
+                <path d="M6 6h.01M6 18h.01" />
+              </svg>
+            </div>
+            <div class="skill-name">React</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-database"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
+              </svg>
+            </div>
+            <div class="skill-name">SQL</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="lucide lucide-git-branch"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <circle cx="6" cy="6" r="3" />
+                <circle cx="6" cy="18" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <path d="M6 9v6a6 6 0 0 0 6 6h0" />
+              </svg>
+            </div>
+            <div class="skill-name">Git</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Selected Work</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80"
+                alt="Modern Portfolio - Professional workspace with laptop"
+                style="
+                  object-fit: cover;
+                  width: 100%;
+                  height: 220px;
+                  border-radius: 12px;
+                "
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Modern Portfolio</h3>
+              <p class="project-description">
+                A sleek, responsive portfolio website built with React and
+                modern CSS.
+              </p>
+              <div class="project-tech">
+                <span
+                  class="tech-icon"
+                  style="
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 38px;
+                    height: 38px;
+                    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+                    border-radius: 50%;
+                    box-shadow: 0 4px 16px rgba(97, 218, 251, 0.18);
+                    margin-right: 8px;
+                  "
+                  title="React"
+                  aria-label="React"
+                >
+                  <!-- React SVG (official, elegant) -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <g>
+                      <circle fill="#fff" cx="16" cy="16" r="16" />
+                      <g>
+                        <ellipse
+                          cx="16"
+                          cy="16"
+                          rx="11"
+                          ry="4.2"
+                          stroke="#61DAFB"
+                          stroke-width="2"
+                        />
+                        <ellipse
+                          cx="16"
+                          cy="16"
+                          rx="11"
+                          ry="4.2"
+                          transform="rotate(60 16 16)"
+                          stroke="#61DAFB"
+                          stroke-width="2"
+                        />
+                        <ellipse
+                          cx="16"
+                          cy="16"
+                          rx="11"
+                          ry="4.2"
+                          transform="rotate(120 16 16)"
+                          stroke="#61DAFB"
+                          stroke-width="2"
+                        />
+                        <circle cx="16" cy="16" r="2.5" fill="#61DAFB" />
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <span
+                  class="tech-icon"
+                  style="
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 38px;
+                    height: 38px;
+                    background: linear-gradient(135deg, #e3f0fc, #d0e6fa);
+                    border-radius: 50%;
+                    box-shadow: 0 4px 16px rgba(21, 114, 182, 0.14);
+                    margin-right: 8px;
+                  "
+                  title="CSS3"
+                  aria-label="CSS3"
+                >
+                  <!-- CSS3 SVG (official, elegant) -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <g>
+                      <circle fill="#fff" cx="16" cy="16" r="16" />
+                      <path
+                        d="M5.902 27.27L3.273 3.273h25.454l-2.63 23.997L16 29.09z"
+                        fill="#1572B6"
+                      />
+                      <path
+                        d="M16 27.612l7.13-1.98 2.25-21.13H16z"
+                        fill="#33A9DC"
+                      />
+                      <path
+                        d="M16 13.09h3.59l.25-2.8H16V7.545h6.09l-.07.8-.72 8.09H16z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M16 20.545l-.01.003-3.02-.82-.19-2.13H9.91l.37 4.13 5.72 1.59.01-.003z"
+                        fill="#EBEBEB"
+                      />
+                      <path
+                        d="M19.59 16.09l-.26 2.91-3.33.91v2.8l5.72-1.59.03-.34.49-5.45z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M16 13.09V10.29h-3.34l-.07.8-.25 2.8z"
+                        fill="#EBEBEB"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <span
+                  class="tech-icon"
+                  style="
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 38px;
+                    height: 38px;
+                    background: linear-gradient(135deg, #fffbe6, #fffde7);
+                    border-radius: 50%;
+                    box-shadow: 0 4px 16px rgba(247, 223, 30, 0.14);
+                  "
+                  title="JavaScript"
+                  aria-label="JavaScript"
+                >
+                  <!-- JavaScript SVG (official, elegant) -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <g>
+                      <circle fill="#fff" cx="16" cy="16" r="16" />
+                      <rect
+                        x="4"
+                        y="4"
+                        width="24"
+                        height="24"
+                        rx="6"
+                        fill="#F7DF1E"
+                      />
+                      <path
+                        d="M19.6 23.7c.4.7.8 1.3 1.7 1.3.8 0 1.3-.3 1.3-1.6v-7.1h2.2v7.2c0 2.3-1.3 3.3-3.1 3.3-1.7 0-2.7-.9-3.2-2l1.1-.7zm-7.2.1c.3.6.6 1.1 1.3 1.1.7 0 1.1-.3 1.1-1.3v-7.1h2.2v7.2c0 2.3-1.3 3.3-3.1 3.3-1.7 0-2.7-.9-3.2-2l1.1-.7z"
+                        fill="#222"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-github"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="lucide lucide-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="softskills" class="softskills section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Soft Skills</h2>
+          <p class="section-subtitle">Personal & Professional Qualities</p>
+        </div>
+        <div
+          class="softskills-grid"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+          "
+        >
+          <div
+            class="softskill-card"
+            style="
+              flex: 1 1 220px;
+              max-width: 260px;
+              min-width: 200px;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+              padding: 2rem 1.2rem;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div
+              class="softskill-icon"
+              style="font-size: 2.2rem; color: #6c63ff; margin-bottom: 0.7rem"
+            >
+              <i class="lucide lucide-lightbulb"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff              "
+                stroke-width="2"
+              >
+                <path
+                  d="M9 18h6M10 22h4M12 2a7 7 0 0 1 7 7c0 3.87-3.13 7-7 7s-7-3.13-7-7a7 7 0 0 1 7-7z"
+                />
+              </svg>
+            </div>
+            <div
+              class="softskill-name"
+              style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem"
+            >
+              Problem Solving
+            </div>
+            <div class="softskill-desc" style="font-size: 0.98rem; color: #555">
+              Approaches challenges with creativity and analytical thinking.
+            </div>
+          </div>
+          <div
+            class="softskill-card"
+            style="
+              flex: 1 1 220px;
+              max-width: 260px;
+              min-width: 200px;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+              padding: 2rem 1.2rem;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div
+              class="softskill-icon"
+              style="font-size: 2.2rem; color: #6c63ff; margin-bottom: 0.7rem"
+            >
+              <i class="lucide lucide-users"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div
+              class="softskill-name"
+              style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem"
+            >
+              Collaboration
+            </div>
+            <div class="softskill-desc" style="font-size: 0.98rem; color: #555">
+              Works effectively with others to achieve shared goals.
+            </div>
+          </div>
+          <div
+            class="softskill-card"
+            style="
+              flex: 1 1 220px;
+              max-width: 260px;
+              min-width: 200px;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+              padding: 2rem 1.2rem;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div
+              class="softskill-icon"
+              style="font-size: 2.2rem; color: #6c63ff; margin-bottom: 0.7rem"
+            >
+              <i class="lucide lucide-message-circle"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-1.9 5.4A8.5 8.5 0 0 1 3.5 19.5L2 22l2.5-.5A8.38 8.38 0 0 0 12 21.5a8.5 8.5 0 0 0 8.5-8.5c0-4.7-3.8-8.5-8.5-8.5S3.5 8.3 3.5 13"
+                />
+              </svg>
+            </div>
+            <div
+              class="softskill-name"
+              style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem"
+            >
+              Communication
+            </div>
+            <div class="softskill-desc" style="font-size: 0.98rem; color: #555">
+              Clear and concise in both written and verbal communication.
+            </div>
+          </div>
+          <div
+            class="softskill-card"
+            style="
+              flex: 1 1 220px;
+              max-width: 260px;
+              min-width: 200px;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+              padding: 2rem 1.2rem;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div
+              class="softskill-icon"
+              style="font-size: 2.2rem; color: #6c63ff; margin-bottom: 0.7rem"
+            >
+              <i class="lucide lucide-smile"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 15s1.5 2 4 2 4-2 4-2" />
+                <path d="M9 9h.01M15 9h.01" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <rect width="20" height="14" x="2" y="5" rx="3" />
+                <path d="M22 7.5 12 13 2 7.5" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#6c63ff"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 21c-4.97-4.97-8-8.03-8-11A8 8 0 0 1 20 10c0 2.97-3.03 6.03-8 11z"
+                />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div
+              class="softskill-name"
+              style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.4rem"
+            >
+              Adaptability
+            </div>
+            <div class="softskill-desc" style="font-size: 0.98rem; color: #555">
+              Quickly adapts to new environments and technologies.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Let's connect</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="lucide lucide-mail"></i>
+              <span>tharunsaicharanpathakamuri@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="lucide lucide-map-pin"></i>
+              <span>Hyderabad, India</span>
+            </div>
+            <div
+              class="contact-item"
+              style="display: flex; align-items: center; gap: 0.5rem"
+            >
+              <a
+                href="https://github.com/TharunPathakamuri"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="GitHub"
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 48px;
+                  height: 48px;
+                  background: #fff;
+                  border-radius: 50%;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  margin-right: 0.7rem;
+                  transition: box-shadow 0.2s;
+                "
+                onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.18)'"
+                onmouseout="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.10)'"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.58 2 12.26c0 4.48 2.87 8.28 6.84 9.63.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0 1 12 7.07c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"
+                    fill="#181717"
+                  />
+                </svg>
+              </a>
+              <span></span>
+            </div>
+            <div
+              class="contact-item"
+              style="display: flex; align-items: center; gap: 0.5rem"
+            >
+              <a
+                href="https://www.linkedin.com/in/tharun-pathakamuri/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LinkedIn"
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 48px;
+                  height: 48px;
+                  background: #fff;
+                  border-radius: 50%;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  transition: box-shadow 0.2s;
+                "
+                onmouseover="this.style.boxShadow='0 4px 16px rgba(10,102,194,0.18)'"
+                onmouseout="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.10)'"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <rect width="24" height="24" rx="12" fill="#0A66C2" />
+                  <path
+                    d="M7.12 9.5c.88 0 1.43-.59 1.43-1.33 0-.76-.56-1.33-1.42-1.33-.87 0-1.43.57-1.43 1.33 0 .74.55 1.33 1.41 1.33h.01Zm-1.18 1.32h2.36V18H5.94V10.82Zm4.09 0h2.26v.99h.03c.31-.59 1.07-1.21 2.2-1.21 2.36 0 2.8 1.55 2.8 3.56V18h-2.36v-3.14c0-.75-.01-1.71-1.04-1.71-1.04 0-1.2.81-1.2 1.65V18h-2.36v-7.18Z"
+                    fill="#fff"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" required />
+              <span class="form-error" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" required />
+              <span class="form-error" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="form-success" id="form-success"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <span
+            >&copy; <span id="current-year"></span> John Doe. All rights
+            reserved.</span
+          >
+          <button
+            class="footer-top"
+            onclick="scrollToTop()"
+            aria-label="Back to top"
+          >
+            <i class="lucide lucide-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
